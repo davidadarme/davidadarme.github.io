@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+gem 'jekyll-seo-tag'
+
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 
 group :test do
