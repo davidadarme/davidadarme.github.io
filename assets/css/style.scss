@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('../fonts/HelveticaNowDisplay-Bold.woff');
+  }
+  
+  @font-face {
+    font-family: 'Helvetica Now Display New';
+    src: url('../fonts/HelveticaNowDisplay-Medium.woff') format('truetype');
+    font-weight: lighter;
+  }
+
+  body {
+    font-family: 'Helvetica Now Display New', sans-serif;
+  }
+
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Now Display', sans-serif;
+  }
+  
+  p {
+    font-family: 'Helvetica Now Display New', sans-serif;
+  }
+  

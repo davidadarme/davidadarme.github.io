@@ -16,10 +16,10 @@ timezone:
 
 title: David Adarme # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Software analysis and development student # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Homeless student
+  Software analysis and development Colombian student 🇨🇴
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -57,6 +57,11 @@ webmaster_verifications:
 
 plugins:
   - jekyll-seo-tag
+
+
+
+# ↓ --------------------------
+fonts: 
 
 # The end of `jekyll-seo-tag` settings
 
@@ -100,7 +105,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/davidadarme-avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
