@@ -337,7 +337,18 @@
     #disqus_thread { /* stylelint-disable-line selector-id-pattern */
       min-height: 8.5rem;
     }
-  }
+
+    .utterances {
+      max-width: 100%;
+    }
+    
+    .giscus, .giscus-frame {
+      width: 100%;
+    }
+    
+    .giscus-frame {
+      border: none;
+    }
   
   %btn-share-hovor {
     color: var(--btn-share-hover-color) !important;
